@@ -56,4 +56,15 @@ export interface Additional   {
   footer?: { type: string };
   useRouterLink?: boolean;
   export?: any;
+  FilterOptions?: any;
+}
+
+export enum ArrayStyle {
+  CommaDelimited, NewLine
+}
+
+export interface ArrayAdditional extends Additional {
+    metaData?: MetaData;
+    limit?: number;
+    arrayStyle?: ArrayStyle;
 }

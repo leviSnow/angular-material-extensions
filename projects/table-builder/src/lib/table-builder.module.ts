@@ -26,6 +26,7 @@ import { KeyDisplayPipe } from './pipes/key-display';
 import { FormatValuePipe } from './pipes/format-value';
 import { RouterModule } from '@angular/router';
 import { StopPropagationDirective } from './directives/stop-propagation.directive';
+import { ArrayColumnComponent } from './components/array-column.component';
 
 @NgModule({
   imports: [
@@ -59,6 +60,7 @@ import { StopPropagationDirective } from './directives/stop-propagation.directiv
         MultiSortDirective,
         NumberFilterComponent,
         ColumnBuilderComponent,
+        ArrayColumnComponent,
         HeaderMenuComponent,
         KeyDisplayPipe,
         FormatValuePipe,
