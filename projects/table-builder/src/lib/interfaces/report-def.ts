@@ -57,6 +57,7 @@ export interface Additional   {
   useRouterLink?: boolean;
   export?: any;
   FilterOptions?: any;
+  styles?: any;
 }
 
 export enum ArrayStyle {
